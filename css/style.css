@@ -1,0 +1,17 @@
+/* STILI GENERALI PAGINA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* STILI HEADER */
