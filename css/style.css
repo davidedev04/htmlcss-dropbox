@@ -43,7 +43,7 @@ header {
 
 button {
     font-size: 15px;
-    padding: 8px 13px;
+    padding: 11px 13px;
     text-decoration: none;
     border: none;
     color: white;
@@ -52,7 +52,7 @@ button {
 
 /* STILI PARTE CENTRALE */
 
-main{
+main {
     width: 100vw;
 }
 
@@ -65,31 +65,31 @@ main{
     justify-content: center;
 }
 
-#content-up{
+#content-up {
     width: 75%;
 }
 
-#content-up h1{
+#content-up h1 {
     font-size: 70px;
     font-weight: bold;
     padding-top: 50px;
 }
 
-#p-img{
+#p-img {
     display: flex;
     padding-top: 40px;
 }
 
-#left-p{
+#left-p {
     display: flex;
     flex-direction: column;
 }
 
-#right-img img{
+#right-img img {
     width: 800px;
 }
 
-.between{
+.between {
     padding-bottom: 20px;
 }
 
@@ -97,66 +97,173 @@ main{
 
 
 
-#piani-business{
-    width: 100%;
+#piani-business {
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.cards-center{
+.choice {
     width: 63%;
+    padding: 50px 0;
+}
+
+.choice h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.choice input:last-child {
+    margin-left: 20px;
+}
+
+.cards-center {
+    width: 63%;
+    height: 100%;
     display: flex;
 }
 
-.card-plans{
+.card-plans {
     width: calc(100% / 3);
-    margin: 0 20px;
 }
 
-.category{
+.margin {
+    margin: 0 30px;
+}
+
+.category {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 13px 0;
-    border: 1px solid rgb(210, 210, 210);
+    border: 2px solid rgb(229, 229, 229);
 }
 
-.nome-prezzo{
+.category span {
+    padding-left: 5px;
+}
+
+.nome-prezzo {
     display: flex;
     flex-direction: column;
 }
 
-.nome-prezzo h2{
+.nome-prezzo h2 {
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
-.nome-prezzo span:last-child{
+.nome-prezzo span:last-child {
     padding-top: 15px;
 }
 
-.characteristics{
+.characteristics {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
 }
 
-.stats{
+.stats {
     padding-bottom: 15px;
+    list-style-type: none;
 }
 
-.acquisto{
+.acquisto {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
 }
 
-.acquisto span{
+.acquisto span {
     padding: 28px 0;
 }
 
-.content-card{
-    border: 1px solid rgb(210, 210, 210);
+.content-card {
+    border: 2px solid rgb(229, 229, 229);
     border-top: none;
     padding: 0 20px;
+}
+
+.border {
+    width: 20%;
+    border-top: 2px solid rgb(229, 229, 229);
+    padding-bottom: 28px;
+}
+
+.punti-salienti ul {
+    padding-left: 20px;
+}
+
+.punti-salienti li {
+    list-style-image: url(https://lh4.googleusercontent.com/-6o-hCK6GULw/UiEydedhX2I/AAAAAAAAjTI/_u9YCgNgGwI/s10/check-10x10.png);
+    padding-bottom: 15px;
+}
+
+.punti-salienti h4 {
+    padding-bottom: 20px;
+}
+
+.card-bottom {
+    width: 63%;
+    padding-top: 30px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans-left h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.plans-left span {
+    font-weight: bold;
+}
+
+.plans-left p {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.button-right {
+    padding-top: 30px;
+}
+
+
+
+
+
+#partner {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.content-mid {
+    width: 63%;
+    display: flex;
+}
+
+.img-partner img {
+    width: 600px;
+}
+
+.scritte-partner {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.scritte-partner p {
+    padding: 20px 0;
+}
+
+.button-partner{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
 }
